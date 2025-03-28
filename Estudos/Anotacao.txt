@@ -1,0 +1,2 @@
+Anotações sobre estudos JAVA.
+Este arquivo deve ser importado e impresso na console do JAVA.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estudos/Estudos.iml" filepath="$PROJECT_DIR$/Estudos/Estudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFormationAlura_Class1.iml" filepath="$PROJECT_DIR$/JavaFormationAlura_Class1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Perfil/Perfil.iml" filepath="$PROJECT_DIR$/Perfil/Perfil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soma/Soma.iml" filepath="$PROJECT_DIR$/Soma/Soma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subtracao/Subtracao.iml" filepath="$PROJECT_DIR$/Subtracao/Subtracao.iml" />
+    </modules>
+  </component>
+</project>
