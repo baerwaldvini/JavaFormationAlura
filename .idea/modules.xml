@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Aula 1 - Configuração e Desafios Lógicos.iml" filepath="$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Aula 1 - Configuração e Desafios Lógicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Estudos/Estudos.iml" filepath="$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Estudos/Estudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaFormationAlura_Class1.iml" filepath="$PROJECT_DIR$/.idea/JavaFormationAlura_Class1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Perfil/Perfil.iml" filepath="$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Perfil/Perfil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Soma/Soma.iml" filepath="$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Soma/Soma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Subtracao/Subtracao.iml" filepath="$PROJECT_DIR$/Aula 1 - Configuração e Desafios Lógicos/Subtracao/Subtracao.iml" />
+    </modules>
+  </component>
+</project>
