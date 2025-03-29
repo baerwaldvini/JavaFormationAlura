@@ -1,0 +1,69 @@
+Agora é com você! Pratique os conceitos que foram ensinados ao longo dessa aula com o seguinte desafio:
+Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit. Utilize variáveis para representar os valores das temperaturas e imprima no console o valor convertido de Celsius para Fahrenheit.
+Dica: A fórmula para converter temperaturas de graus Celsius para Fahrenheit é: (temperatura * 1.8) + 32.
+Depois de finalizar, testar e conferir que seu programa foi executado com sucesso, crie uma variável inteira para exibir a temperatura em Fahrenheit sem casas decimais. Lembre-se que provavelmente você precisará fazer um casting de valores.
+
+
+Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+      //Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+        Scanner scan = new Scanner(System.in);
+        double nota1, nota2;
+
+        System.out.println("Informe as duas notas para média, abaixo: ");
+
+        nota1 = scan.nextDouble();
+        nota2 = scan.nextDouble();
+
+        double media = (nota1 + nota2) / 2;
+        System.out.println("A media de " + nota1 + " e " + nota2 + " é: " + media);
+
+Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.
+//Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.
+        Scanner scan = new Scanner(System.in);
+
+        int value1 = 10;
+        double value2 = (double) value1;
+        System.out.println(value2);
+
+Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra). Atribua valores a essas variáveis e concatene-as em uma mensagem.
+//Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra). Atribua valores a essas variáveis e concatene-as em uma mensagem.
+        Scanner scan = new Scanner(System.in);
+
+        char value1 = 'A';
+        String value2 = "moradia do sol";
+        System.out.println(value1 +" "+ value2);
+
+Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade). Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.
+//Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade).
+        // Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.
+
+        double precoProduto = 24.97;
+        int quantidadeProduto = 5;
+
+        double valorTotal = (double) precoProduto * quantidadeProduto;
+        System.out.println(valorTotal);
+
+Declare uma variável do tipo double valorEmDolares. Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente a 4.94 reais. Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
+        //Declare uma variável do tipo double valorEmDolares.
+        // Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente a 4.94 reais.
+        // Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
+
+
+        double valorEmDolares = 27.98;
+        double valorReal = 4.94;
+
+        double valorTotal = valorEmDolares * valorReal;
+        System.out.println(valorTotal);
+
+Declare uma variável do tipo double precoOriginal. Atribua um valor em reais a essa variável, representando o preço original de um produto. Em seguida, declare uma variável do tipo double percentualDesconto e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%). Calcule o valor do desconto em reais, aplique-o ao preço original e imprima o novo preço com desconto.
+//Declare uma variável do tipo double precoOriginal.
+        // Atribua um valor em reais a essa variável, representando o preço original de um produto.
+        // Em seguida, declare uma variável do tipo double percentualDesconto e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%).
+        // Calcule o valor do desconto em reais, aplique-o ao preço original e imprima o novo preço com desconto.
+
+        double precoOriginal = 27.98;
+        double percentualDesconto = 10;
+
+        double valorTotal = precoOriginal - (precoOriginal * (percentualDesconto / 100));
+        System.out.println(valorTotal);
+

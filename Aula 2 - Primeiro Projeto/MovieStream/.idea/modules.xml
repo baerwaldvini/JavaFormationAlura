@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CelsiusFahrneit/CelsiusFahrneit.iml" filepath="$PROJECT_DIR$/CelsiusFahrneit/CelsiusFahrneit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Desafios/Desafios.iml" />
       <module fileurl="file://$PROJECT_DIR$/MovieStream.iml" filepath="$PROJECT_DIR$/MovieStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios/desafioJogoAdivinhacao/desafioJogoAdivinhacao.iml" filepath="$PROJECT_DIR$/Desafios/desafioJogoAdivinhacao/desafioJogoAdivinhacao.iml" />
     </modules>
   </component>
 </project>
