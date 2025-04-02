@@ -19,15 +19,15 @@ int duracaoEmMinutos;
 
 no codigo principal, os atributos tem que ser chamados dessa forma:
 void exibeFichaTecnica(){
-        System.out.println("Nome do Filme: " + nome);
+        System.out.println("Nome do scrrenmatch.modelos.Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 
-Filme meuFilme = new Filme();
+scrrenmatch.modelos.Filme meuFilme = new scrrenmatch.modelos.Filme();
 meuFilme.nome = "Harry Potter e a Pedra Filosofal";
 
 public static void main(String[] args) {
-        Filme meuFilme = new Filme();
+        scrrenmatch.modelos.Filme meuFilme = new scrrenmatch.modelos.Filme();
 
         meuFilme.nome = "Harry Potter e a Pedra Filosofal";
         meuFilme.anoDeLancamento = 2000;
@@ -40,4 +40,49 @@ RESUMO:
 
 Uma classe é uma estrutura que define um tipo de objeto. A classe é como um molde, que define quais são as características (atributos) e comportamentos (métodos) que os objetos desse tipo vão possuir. Por exemplo, podemos definir uma classe chamada Pessoa que tenha os atributos nome e idade, além do método fazAniversario()
 Já um objeto, é uma instância de uma classe, sendo por meio dele que conseguimos representar informações na aplicação, pois a classe serve apenas para padronizar os objetos, mas não para representar um objeto em si. Para criar um objeto em Java, precisamos utilizar a palavra reservada new seguida do nome da classe e de parênteses vazios.
+
+---
+
+Aula 2:
+
+Do jeito que o programa estava anteriormente, eu posso alterar a média do filme diretamente no código.
+
+Para isso, o encapsulamento foi introduzido.
+Que é respeito das classes para não alterar o parametro em outras classes.
+
+Modificador de Acesso: private.
+método get e set dentro de uma classe private
+
+
+Public
+O modificador de acesso public é o mais permissivo de todos. Uma classe, atributo ou método declarado como public pode ser acessado por qualquer classe em qualquer pacote. Ou seja, ele possui visibilidade pública e pode ser utilizado livremente.
+
+Default (Package-private)
+O modificador de acesso default é aquele que não especifica nenhum modificador de acesso. Quando nenhum modificador de acesso é especificado, a classe, atributo ou método pode ser acessado apenas pelas classes que estão no mesmo pacote.
+
+Private
+O modificador de acesso private é o mais restritivo de todos. Uma classe, atributo ou método declarado como private só pode ser acessado dentro da própria classe. Ou seja, ele possui visibilidade restrita e não pode ser utilizado por outras classes.
+
+---
+
+String não é uma palavra primitiva e sim uma classe que tem métodos e atributos.
+Pacote: organizado pela funcionalidade de suas classes
+
+java doc
+https://docs.oracle.com/en/java/javase/17/docs/api/index.html
+
+getters: busca o valor
+setters: inclui o valor
+
+this: apenas um indicativo para buscar o nome da variavel e setar dentro do metodo, pois usa-se variaveis iguais
+“This”, traduzindo para o português (Isto/este/esta), é usado para fazer referência aos atributos da classe, especialmente em métodos que têm parâmetros com o mesmo nome do atributo da classe em que estamos trabalhando.
+
+exemplo String nome
+
+public void setNome(String nome){
+    this.nome = nome;
+}
+
+No inteliJ se apertar o ctrl e clicar em cima da classe, estando em outra classe, ele já vai para a classe escrita.
+
 
