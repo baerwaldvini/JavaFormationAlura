@@ -1,0 +1,31 @@
+/*Olá, tudo bem? E aí, curtiu o conteúdo apresentado no curso?
+
+Nesta aula, eu gostaria de propor um novo desafio para que você possa consolidar os seus conhecimentos e utilizar grande parte dos conceitos e recursos vistos ao longo do curso.
+A linguagem de programação Java é muito poderosa e versátil e é usada em muitas aplicações do mundo real, desde jogos até aplicativos empresariais.
+
+A proposta é criarmos uma nova aplicação, diferente do ScreenMatch, para que você tenha a oportunidade de praticar e aprofundar sua compreensão dos conceitos fundamentais do Java.
+
+No primeiro vídeo, eu apresentarei o desafio proposto, detalhando e sugerindo a implementação dessa nova aplicação.
+Nos vídeos subsequentes, irei resolvendo aos poucos para que,
+caso você tenha alguma dúvida ao longo do processo, possa ir fazendo passo a passo e tentando concluir o desafio sozinho.
+*/
+
+EX:
+
+***********************
+Dados iniciais do cliente:
+
+Nome: Jacqueline Oliveira
+Tipo conta: Corrente
+Saldo inicial: R$ 2500,00
+***********************
+
+Operações
+
+1- Consultar saldos
+2- Receber valor
+3- Transferir valor
+4- Sair
+
+Digite a opção desejada:
+
