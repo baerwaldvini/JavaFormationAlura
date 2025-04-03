@@ -86,3 +86,31 @@ public void setNome(String nome){
 No inteliJ se apertar o ctrl e clicar em cima da classe, estando em outra classe, ele já vai para a classe escrita.
 
 
+---
+
+3:
+
+Herança: herdar uma classe e especializar ela conforme o necessário
+Se trata essa herança entre classe com a palavra extends.
+
+ex: public class Filme extends Titulo{
+
+Sobreescrever métodos: retorna a função super(utilizada para voltar o da mãe) com @Override - uma sobreescrita do método
+
+A herança é um conceito fundamental da orientação a objetos, sendo implementada em Java através da relação é um entre classes. Isso significa que uma classe pode herdar atributos e métodos de outra classe, tornando com isso o código mais reutilizável.
+
+No Java, a herança é realizada através da palavra-chave extends. A classe que herda é chamada de subclasse, e a classe que é herdada é chamada de superclasse. A subclasse pode acessar todos os atributos e métodos públicos e protegidos da superclasse, além de poder sobrescrever os métodos da superclasse para criar comportamentos específicos.
+
+No Java, as anotações são definidas com o uso do símbolo "@" seguido do nome da anotação. Por exemplo, a anotação @Deprecated é usada para indicar que um método ou classe está obsoleto e não deve ser mais utilizado. Outra anotação muito útil é a @Override, conforme foi demonstrado no último vídeo, que indica que um método está sobrescrevendo o mesmo método definido na sua classe mãe.
+
+Polimorfismo: chamar de várias formas o objeto, pela classe, especialização, tipo...
+
+Ao usar herança no Java, temos a possibilidade de utilizar o modificador de acesso protected, que permite que os atributos de uma classe sejam acessados por outras classes do mesmo pacote e também por suas subclasses, independentemente do pacote em que se encontram.
+
+O modificador protected é útil em situações em que uma classe precisa permitir que suas subclasses acessem diretamente seus atributos, sem a necessidade de restringir o acesso apenas pelos métodos getters e setters.
+
+O problema de ter códigos duplicados em várias classes, utilizando a herança como solução;
+A palavra-chave extends, utilizada para indicar que uma classe herda de outra;
+Como sobrescrever um método sendo herdado, com o uso opcional da anotação @Override;
+Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados.
+
