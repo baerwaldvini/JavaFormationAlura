@@ -114,3 +114,17 @@ A palavra-chave extends, utilizada para indicar que uma classe herda de outra;
 Como sobrescrever um método sendo herdado, com o uso opcional da anotação @Override;
 Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados.
 
+4:
+
+Não consigo por mais de uma classe no extends.
+Para uma solução disso, foi criado uma interface ao inves de uma classe.
+
+E essa 'interface' é chamada com a palavra implements na classe que precisar.
+Após isso ela faz um override do método para correta configuração da classe que precisar.
+
+Em Java, interfaces são uma forma de definir um contrato que as classes devem seguir, sendo que ele define quais métodos devem ser implementados pelas classes que o implementarem. Interfaces permitem que diferentes classes possam ser tratadas de maneira padronizada, via polimorfismo, tornando assim o código fácil de estender com novos comportamentos.
+
+Utilização de interfaces
+Interfaces podem ser utilizadas para definir comportamentos que podem ser aplicados a várias classes diferentes, tornando assim o código mais modular e fácil de manter.
+
+Por exemplo, suponha que temos um sistema de vendas que precisa calcular o imposto de diferentes tipos de produtos. Podemos criar a interface Tributavel, para definir o comportamento de calcular imposto, e criar várias classes diferentes que implementam essa interface para calcular o imposto de diferentes produtos.

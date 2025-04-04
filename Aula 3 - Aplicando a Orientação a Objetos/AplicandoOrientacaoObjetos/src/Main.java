@@ -1,6 +1,8 @@
+import scrrenmatch.modelos.Episodio;
 import scrrenmatch.modelos.Filme;
 import scrrenmatch.modelos.Series;
 import sreenmatch.calculos.CalculadoraDeTempo;
+import sreenmatch.calculos.Recomendacao;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -41,5 +43,14 @@ public class Main {
         calculadoraDeTempo.inclui(outroFilme);
         calculadoraDeTempo.inclui(serie);
         System.out.println("Duração total de tela dos selecionados: " + calculadoraDeTempo.getTempoTotal());
+
+        Recomendacao recomendacao = new Recomendacao();
+        recomendacao.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serie);
+        episodio.setTotalVisualizacoes(300);
+        recomendacao.filtra(episodio);
     }
 }
