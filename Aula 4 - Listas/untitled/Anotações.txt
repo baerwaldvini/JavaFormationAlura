@@ -1,0 +1,6 @@
+ArrayList:
+
+Classe do java com listas.
+.get -> pegar os valores do array
+.add -> adicionar valores em um array
+
